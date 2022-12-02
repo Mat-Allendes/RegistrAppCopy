@@ -1,0 +1,14 @@
+<ion-header>
+  <ion-toolbar color="tertiary">
+
+    <ion-buttons *ngIf="isNotHome"  slot="start">
+      <ion-back-button defaultHref="/" color="primary"></ion-back-button>
+    </ion-buttons>
+    
+    <ion-title class="ion-text-capitalize">{{pageTitle}}</ion-title>
+
+    <ion-thumbnail slot="end">
+      <img  src="../../../assets/img/logo2.png.svg" alt="Logo Header">
+    </ion-thumbnail>
+  </ion-toolbar>
+</ion-header>
